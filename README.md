@@ -3,7 +3,7 @@
 ## Overview
 This project is a high-performance, multi-threaded departmental store database application developed as part of the CS315 course. Built using Python and Oracle Database, it leverages the `oracledb` module with a configurable connection pool (50–100 connections) to simulate realistic workloads. The application supports customer creation, order placement with randomized item generation, updates, deletions, and summary queries, while ensuring ACID compliance. It includes detailed logging, tracing, and monitoring for operational metrics, deadlock detection, and performance profiling.
 
-For a comprehensive understanding, refer to the [project report](link-to-report-placeholder).
+For a comprehensive understanding, refer to the [project report]([link-to-report-placeholder](https://python-oracledb.readthedocs.io/en/latest/index.html)).
 
 ## Features
 - **Concurrent Transaction Handling**: Scales to 50–100 pooled connections with multiple worker threads.
