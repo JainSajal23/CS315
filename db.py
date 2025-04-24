@@ -95,60 +95,60 @@ def close_conn(connection,cursor):
     except:
         return
 
-def pool_monitor():
-    summary = "opened connections: "+str(pool.opened)+"\n"
-    summary += "busy connections: "+str(pool.busy)+"\n"
-    summary += "idle connections: "+str(pool.opened-pool.busy)+"\n"
-    return summary
+# def pool_monitor():
+#     summary = "opened connections: "+str(pool.opened)+"\n"
+#     summary += "busy connections: "+str(pool.busy)+"\n"
+#     summary += "idle connections: "+str(pool.opened-pool.busy)+"\n"
+#     return summary
 
-def session_monitor():
-    connection,cursor = create_connection()
-    query = """
-    SELECT sid, serial#, username, status, osuser, machine, program
-    FROM v$session
-    WHERE status = 'ACTIVE'
-    """
-    cursor.execute(query)
-    sessions = cursor.fetchall()
-    close_conn(connection,cursor)
-    return tabulate(sessions, headers=["SID", "Serial#", "Username", "Status", "OS User", "Machine", "Program"], tablefmt="grid")
+# def session_monitor():
+#     connection,cursor = create_connection()
+#     query = """
+#     SELECT sid, serial#, username, status, osuser, machine, program
+#     FROM v$session
+#     WHERE status = 'ACTIVE'
+#     """
+#     cursor.execute(query)
+#     sessions = cursor.fetchall()
+#     close_conn(connection,cursor)
+#     return tabulate(sessions, headers=["SID", "Serial#", "Username", "Status", "OS User", "Machine", "Program"], tablefmt="grid")
 
-def monitor_lock():
-    print(datetime.now())
-    connection, cursor = create_connection()
-    query = """
-    SELECT
-        l.session_id,
-        s.username,
-        s.osuser,
-        o.object_name,
-        o.object_type,
-        l.locked_mode
-    FROM
-        v$locked_object l
-        JOIN dba_objects o ON l.object_id = o.object_id
-        JOIN v$session s ON l.session_id = s.sid
-    """
-    cursor.execute(query)
-    locks = cursor.fetchall()
-    close_conn(connection, cursor)
-    print(datetime.now())
-    return tabulate(locks, headers=["Session ID", "Username", "OS User", "Object Name", "Object Type", "Locked Mode"], tablefmt="grid")
+# def monitor_lock():
+#     print(datetime.now())
+#     connection, cursor = create_connection()
+#     query = """
+#     SELECT
+#         l.session_id,
+#         s.username,
+#         s.osuser,
+#         o.object_name,
+#         o.object_type,
+#         l.locked_mode
+#     FROM
+#         v$locked_object l
+#         JOIN dba_objects o ON l.object_id = o.object_id
+#         JOIN v$session s ON l.session_id = s.sid
+#     """
+#     cursor.execute(query)
+#     locks = cursor.fetchall()
+#     close_conn(connection, cursor)
+#     print(datetime.now())
+#     return tabulate(locks, headers=["Session ID", "Username", "OS User", "Object Name", "Object Type", "Locked Mode"], tablefmt="grid")
 
-def monitor_blocking_sessions():
-    connection,cursor = create_connection()
-    query = """
-SELECT
-    b.HOLDING_SESSION AS blocking_session,
-    w.WAITING_SESSION AS waiting_session,
-    o.object_name,
-    o.object_type
-FROM
-    dba_blockers b
-    JOIN dba_waiters w ON b.holding_session = w.waiting_session
-    JOIN dba_objects o ON w.WAITING_CON_ID = o.object_id
-"""
-    cursor.execute(query)
-    blockers = cursor.fetchall()
-    close_conn(connection,cursor)
-    return (tabulate(blockers, headers=["Blocking Session", "Waiting Session", "Object Name", "Object Type"], tablefmt="grid"))
+# def monitor_blocking_sessions():
+#     connection,cursor = create_connection()
+#     query = """
+# SELECT
+#     b.HOLDING_SESSION AS blocking_session,
+#     w.WAITING_SESSION AS waiting_session,
+#     o.object_name,
+#     o.object_type
+# FROM
+#     dba_blockers b
+#     JOIN dba_waiters w ON b.holding_session = w.waiting_session
+#     JOIN dba_objects o ON w.WAITING_CON_ID = o.object_id
+# """
+#     cursor.execute(query)
+#     blockers = cursor.fetchall()
+#     close_conn(connection,cursor)
+#     return (tabulate(blockers, headers=["Blocking Session", "Waiting Session", "Object Name", "Object Type"], tablefmt="grid"))
