@@ -1,0 +1,257 @@
+2025-04-18 01:27:45 - logger - INFO - Workload started here
+
+########################################################################################
+Time of Logging: 2025-04-18 01:27:45
+  Transactions Total Pass Fail
+addnewcustomer     0    0    0
+ deleting_cust     0    0    0
+         Total     0    0    0
+------------------------------------------------------------------------------------------
+
+########################################################################################
+Time of Logging: 2025-04-18 01:27:50
+  Transactions Total Pass Fail
+addnewcustomer    22   22    0
+ deleting_cust    11   10    1
+         Total    33   32    1
+------------------------------------------------------------------------------------------
+2025-04-18 01:27:50 - logger - ERROR - _run_deleting_cust_could not delete customer_id 170 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:27:55
+  Transactions Total Pass Fail
+addnewcustomer    34   34    0
+ deleting_cust    17   10    7
+         Total    51   44    7
+------------------------------------------------------------------------------------------
+2025-04-18 01:27:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 992 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:27:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 924 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:27:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 314 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:27:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 403 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:27:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 919 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:27:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 865 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:00
+  Transactions Total Pass Fail
+addnewcustomer    38   38    0
+ deleting_cust    19   10    9
+         Total    57   48    9
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:00 - logger - ERROR - _run_deleting_cust_could not delete customer_id 738 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:00 - logger - ERROR - _run_deleting_cust_could not delete customer_id 493 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:05
+  Transactions Total Pass Fail
+addnewcustomer    40   40    0
+ deleting_cust    25   10   15
+         Total    65   50   15
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:05 - logger - ERROR - _run_deleting_cust_could not delete customer_id 662 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:05 - logger - ERROR - _run_deleting_cust_could not delete customer_id 587 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:05 - logger - ERROR - _run_deleting_cust_could not delete customer_id 336 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:05 - logger - ERROR - _run_deleting_cust_could not delete customer_id 786 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:05 - logger - ERROR - _run_deleting_cust_could not delete customer_id 524 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:05 - logger - ERROR - _run_deleting_cust_could not delete customer_id 349 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:10
+  Transactions Total Pass Fail
+addnewcustomer    40   40    0
+ deleting_cust    28   10   18
+         Total    68   50   18
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:10 - logger - ERROR - _run_deleting_cust_could not delete customer_id 1039 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:10 - logger - ERROR - _run_deleting_cust_could not delete customer_id 703 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:10 - logger - ERROR - _run_deleting_cust_could not delete customer_id 13 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:15
+  Transactions Total Pass Fail
+addnewcustomer    40   40    0
+ deleting_cust    34   10   24
+         Total    74   50   24
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:15 - logger - ERROR - _run_deleting_cust_could not delete customer_id 596 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:15 - logger - ERROR - _run_deleting_cust_could not delete customer_id 665 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:15 - logger - ERROR - _run_deleting_cust_could not delete customer_id 623 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:15 - logger - ERROR - _run_deleting_cust_could not delete customer_id 798 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:15 - logger - ERROR - _run_deleting_cust_could not delete customer_id 37 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:15 - logger - ERROR - _run_deleting_cust_could not delete customer_id 430 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:20
+  Transactions Total Pass Fail
+addnewcustomer    41   41    0
+ deleting_cust    36   10   26
+         Total    77   51   26
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:20 - logger - ERROR - _run_deleting_cust_could not delete customer_id 247 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:20 - logger - ERROR - _run_deleting_cust_could not delete customer_id 232 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:25
+  Transactions Total Pass Fail
+addnewcustomer    45   45    0
+ deleting_cust    42   10   32
+         Total    87   55   32
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:25 - logger - ERROR - _run_deleting_cust_could not delete customer_id 560 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:25 - logger - ERROR - _run_deleting_cust_could not delete customer_id 843 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:25 - logger - ERROR - _run_deleting_cust_could not delete customer_id 554 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:25 - logger - ERROR - _run_deleting_cust_could not delete customer_id 613 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:25 - logger - ERROR - _run_deleting_cust_could not delete customer_id 155 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:25 - logger - ERROR - _run_deleting_cust_could not delete customer_id 740 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:30
+  Transactions Total Pass Fail
+addnewcustomer    50   50    0
+ deleting_cust    47   11   36
+         Total    97   61   36
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:30 - logger - ERROR - _run_deleting_cust_could not delete customer_id 974 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:30 - logger - ERROR - _run_deleting_cust_could not delete customer_id 652 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:30 - logger - ERROR - _run_deleting_cust_could not delete customer_id 50 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:30 - logger - ERROR - _run_deleting_cust_could not delete customer_id 1061 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:35
+  Transactions Total Pass Fail
+addnewcustomer    56   56    0
+ deleting_cust    51   11   40
+         Total   107   67   40
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:35 - logger - ERROR - _run_deleting_cust_could not delete customer_id 697 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:35 - logger - ERROR - _run_deleting_cust_could not delete customer_id 554 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:35 - logger - ERROR - _run_deleting_cust_could not delete customer_id 367 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:35 - logger - ERROR - _run_deleting_cust_could not delete customer_id 138 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:40
+  Transactions Total Pass Fail
+addnewcustomer    70   70    0
+ deleting_cust    59   11   48
+         Total   129   81   48
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 633 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 946 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 657 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 515 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 11 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 317 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 208 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:40 - logger - ERROR - _run_deleting_cust_could not delete customer_id 936 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:45
+  Transactions Total Pass Fail
+addnewcustomer    76   76    0
+ deleting_cust    65   11   54
+         Total   141   87   54
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:45 - logger - ERROR - _run_deleting_cust_could not delete customer_id 302 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:45 - logger - ERROR - _run_deleting_cust_could not delete customer_id 1003 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:45 - logger - ERROR - _run_deleting_cust_could not delete customer_id 46 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:45 - logger - ERROR - _run_deleting_cust_could not delete customer_id 865 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:45 - logger - ERROR - _run_deleting_cust_could not delete customer_id 195 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:45 - logger - ERROR - _run_deleting_cust_could not delete customer_id 662 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:50
+  Transactions Total Pass Fail
+addnewcustomer    76   76    0
+ deleting_cust    67   11   56
+         Total   143   87   56
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:50 - logger - ERROR - _run_deleting_cust_could not delete customer_id 269 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:50 - logger - ERROR - _run_deleting_cust_could not delete customer_id 416 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+
+########################################################################################
+Time of Logging: 2025-04-18 01:28:55
+  Transactions Total Pass Fail
+addnewcustomer    76   76    0
+ deleting_cust    73   11   62
+         Total   149   87   62
+------------------------------------------------------------------------------------------
+2025-04-18 01:28:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 571 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 1028 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 43 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 1040 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 296 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:55 - logger - ERROR - _run_deleting_cust_could not delete customer_id 866 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:28:55 - logger - INFO - bringing workload down in 10secs...
+
+########################################################################################
+Time of Logging: 2025-04-18 01:29:00
+  Transactions Total Pass Fail
+addnewcustomer    76   76    0
+ deleting_cust    75   12   63
+         Total   151   88   63
+------------------------------------------------------------------------------------------
+2025-04-18 01:29:00 - logger - ERROR - _run_deleting_cust_could not delete customer_id 302 due to ORA-00060: deadlock detected while waiting for resource
+Help: https://docs.oracle.com/error-help/db/ora-00060/
+2025-04-18 01:29:05 - logger - INFO - workload is ended
