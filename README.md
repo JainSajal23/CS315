@@ -94,11 +94,10 @@ duration_mins=0
 The system successfully handles concurrent transactions for a 1-minute duration, with logs capturing successes, errors, session activity, and lock conditions. Detailed results are available in the project report.
 
 ## Contributors
-- **Sajal Jain**: Designed architecture, implemented `db.py`, configured connection pooling.
-- **Siddhant Singhai**: Developed `main.py`, handled task scheduling and threading.
-- **Akshat Mehta**: Implemented `action.py`, focused on business logic.
-- **Abhishek Choudhary**: Configured `db.config`, implemented `logger_tracer.py`.
-- **Aryan Thada**: Tested the application, validated outputs, documented results.
-
+- **Sajal Jain**
+- **Siddhant Singhai**
+- **Akshat Mehta**
+- **Abhishek Choudhary**
+- **Aryan Thada**
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
